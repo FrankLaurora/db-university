@@ -1,0 +1,7 @@
+1. SELECT COUNT(`id`) AS 'enrolled_by_year' FROM `students` GROUP BY YEAR(`enrolment_date`);
+
+2. SELECT COUNT(`id`) AS 'offices_by_address' FROM `teachers` GROUP BY `office_address`;
+
+3. SELECT ROUND(AVG(`vote`), 2) AS 'average_vote' FROM `exam_student` GROUP BY `exam_id`;
+
+4. SELECT COUNT(`id`) AS 'degrees_by_department' FROM `degrees` GROUP BY `department_id`;
